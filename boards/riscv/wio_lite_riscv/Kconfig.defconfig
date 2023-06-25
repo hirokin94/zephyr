@@ -1,0 +1,8 @@
+# Copyright (c) 2023 Tada, Hiroki <hirokin18931@gmail.com>
+
+if BOARD_WIO_LITE_RISCV
+
+config BOARD
+	default "wio_lite_riscv"
+
+endif # BOARD_WIO_LITE_RISCV
