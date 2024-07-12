@@ -1,0 +1,11 @@
+# SPDX-License-Identifier: Apache-2.0
+
+if BOARD_MAIX_BIT
+
+config BOARD
+	default "maix_bit"
+
+config SYS_CLOCK_TICKS_PER_SEC
+	default 128
+
+endif

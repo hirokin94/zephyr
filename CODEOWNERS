@@ -84,6 +84,7 @@
 /soc/riscv/riscv-privilege/neorv32/       @henrikbrixandersen
 /soc/riscv/riscv-privilege/gd32vf103/     @soburi
 /soc/riscv/riscv-privilege/niosv/         @sweeaun
+/soc/riscv/riscv-privilege/maix_bit/      @hirokin94
 /soc/x86/                                 @dcpleung @nashif @aasthagr
 /arch/xtensa/                             @dcpleung @andyross @nashif
 /soc/xtensa/                              @dcpleung @andyross @nashif
@@ -178,6 +179,7 @@
 /boards/riscv/rv32m1_vega/                @dleach02
 /boards/riscv/adp_xc7k_ae350/             @cwshu @kevinwang821020 @jimmyzhe
 /boards/riscv/longan_nano/                @soburi
+/boards/riscv/maix_bit/                   @hirokin94
 /boards/riscv/neorv32/                    @henrikbrixandersen
 /boards/riscv/niosv_m/                    @sweeaun
 /boards/shields/                          @erwango
