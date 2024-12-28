@@ -1,0 +1,13 @@
+identifier: wio_lite_riscv
+name: Wio Lite Riscv
+type: mcu
+arch: riscv32
+toolchain:
+  - zephyr
+  - xtools
+flash: 128
+ram: 32
+supported:
+  - watchdog
+  - dma
+  - spi

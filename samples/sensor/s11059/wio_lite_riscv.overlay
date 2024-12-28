@@ -1,0 +1,14 @@
+/*
+ * Copyright (c) 2025 Hiroki Tada
+ * SPDX-License-Identifier: Apache-2.0
+ */
+
+&i2c1 {
+        status = "okay";
+        s11059@2a {
+                compatible = "hamamatsu,s11059";
+                reg = <0x2A>;
+                integration-time = <512>;
+                status = "okay";
+        };
+};
