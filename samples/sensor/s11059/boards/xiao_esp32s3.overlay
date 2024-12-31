@@ -1,0 +1,16 @@
+/*
+ * Copyright (c) 2023 Espressif Systems (Shanghai) Co., Ltd.
+ *
+ * SPDX-License-Identifier: Apache-2.0
+ */
+
+&i2c0 {
+        status = "okay";
+        s11059@2a {
+                compatible = "hamamatsu,s11059";
+                reg = <0x2A>;
+                integration-time = <546000>;
+                label = "S11059_I2C";
+                status = "okay";
+        };
+};

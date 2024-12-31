@@ -1,5 +1,5 @@
 identifier: wio_lite_riscv
-name: Wio Lite Riscv
+name: Seeed Wio Lite Riscv
 type: mcu
 arch: riscv32
 toolchain:
@@ -11,3 +11,4 @@ supported:
   - watchdog
   - dma
   - spi
+vendor: seeed
